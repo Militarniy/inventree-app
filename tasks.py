@@ -32,4 +32,4 @@ def ios(c):
 @task(pre=[clean, translate])
 def android(c):
     """Build Android app"""
-    c.run("flutter build appbundle --release --no-tree-shake-icons")
+    c.run("flutter build apk --debug --no-tree-shake-icons")
