@@ -1,1073 +1,1474 @@
 {
-  "@@locale": "uk",
+  "@@locale": "en",
+
   "appTitle": "InvenTree",
-  "@appTitle": {
-    "description": "InvenTree application title string"
-  },
-  "ok": "Добре",
-  "@ok": {
-    "description": "OK"
-  },
-  "about": "Інформація про",
+  "@appTitle": {},
+
+  "ok": "OK",
+  "@ok": {},
+
+  "about": "Про програму",
   "@about": {},
+
   "accountDetails": "Деталі облікового запису",
   "@accountDetails": {},
+
   "actions": "Дії",
-  "@actions": {
-    "description": ""
-  },
+  "@actions": {},
+
   "actionsNone": "Немає доступних дій",
   "@actionsNone": {},
+
   "add": "Додати",
-  "@add": {
-    "description": "add"
-  },
-  "addStock": "Додати склад",
-  "@addStock": {
-    "description": "add stock"
-  },
+  "@add": {},
+
+  "addStock": "Додати запас",
+  "@addStock": {},
+
   "address": "Адреса",
   "@address": {},
+
   "appAbout": "Про InvenTree",
   "@appAbout": {},
-  "appCredits": "Additional app credits",
+
+  "appCredits": "Додаткові дані про додаток",
   "@appCredits": {},
-  "appDetails": "Про додаток",
+
+  "appDetails": "Деталі програми",
   "@appDetails": {},
+
   "allocated": "Виділено",
   "@allocated": {},
-  "allocateStock": "Allocate Stock",
+
+  "allocateStock": "Виділити запас",
   "@allocateStock": {},
-  "appReleaseNotes": "Показати примітки до випуску",
+
+  "appReleaseNotes": "Показати примітки до випуску програми",
   "@appReleaseNotes": {},
-  "appSettings": "Налаштування додатку",
+
+  "appSettings": "Налаштування програми",
   "@appSettings": {},
-  "appSettingsDetails": "Configure InvenTree app settings",
+
+  "appSettingsDetails": "Налаштувати параметри програми InvenTree",
   "@appSettingsDetails": {},
-  "assignedToMe": "Assigned to Me",
+
+  "assignedToMe": "Призначено мені",
   "@assignedToMe": {},
-  "assignedToMeDetail": "Show orders which are assigned to me",
+
+  "assignedToMeDetail": "Показати замовлення, призначені мені",
   "@assignedToMeDetail": {},
-  "attachments": "Attachments",
+
+  "attachments": "Вкладення",
   "@attachments": {},
-  "attachImage": "Прикріпити зображення",
-  "@attachImage": {
-    "description": "Attach an image"
-  },
-  "attachmentNone": "Вкладення не знайдено",
+
+  "attachImage": "Додати зображення",
+  "@attachImage": {},
+
+  "attachmentNone": "Не знайдено вкладень",
   "@attachmentNone": {},
-  "attachmentNoneDetail": "Вкладення не знайдено",
+
+  "attachmentNoneDetail": "Не знайдено вкладень",
   "@attachmentNoneDetail": {},
+
   "attachmentSelect": "Виберіть вкладення",
   "@attachmentSelect": {},
-  "attention": "Попередження",
+
+  "attention": "Увага",
   "@attention": {},
-  "available": "Доступно",
-  "@available": {},
-  "availableStock": "Доступний склад",
+
+  "availableStock": "Доступний запас",
   "@availableStock": {},
-  "barcodes": "ШК",
+
+  "barcodes": "Штрих-коди",
   "@barcodes": {},
-  "barcodeSettings": "Налаштування штрих-коду",
+
+  "barcodeSettings": "Налаштування штрих-кодів",
   "@barcodeSettings": {},
+
   "barcodeAssign": "Призначити штрих-код",
   "@barcodeAssign": {},
-  "barcodeAssignDetail": "Scan custom barcode to assign",
+
+  "barcodeAssignDetail": "Відскануйте власний штрих-код для призначення",
   "@barcodeAssignDetail": {},
-  "barcodeAssigned": "Barcode assigned",
+
+  "barcodeAssigned": "Штрих-код призначено",
   "@barcodeAssigned": {},
+
   "barcodeError": "Помилка сканування штрих-коду",
   "@barcodeError": {},
-  "barcodeInUse": "Barcode already assigned",
+
+  "barcodeInUse": "Штрих-код вже призначено",
   "@barcodeInUse": {},
-  "barcodeMissingHash": "Barcode hash data missing from response",
+
+  "barcodeMissingHash": "Відсутні дані хешу штрих-коду у відповіді",
   "@barcodeMissingHash": {},
-  "barcodeNoMatch": "No match for barcode",
+
+  "barcodeNoMatch": "Не знайдено збігів для штрих-коду",
   "@barcodeNoMatch": {},
-  "barcodeNotAssigned": "Barcode not assigned",
+
+  "barcodeNotAssigned": "Штрих-код не призначено",
   "@barcodeNotAssigned": {},
-  "barcodeScanPart": "Scan part barcode",
+
+  "barcodeScanPart": "Відскануйте штрих-код позиції",
   "@barcodeScanPart": {},
-  "barcodeReceivePart": "Scan barcode to receive part",
+
+  "barcodeReceivePart": "Відскануйте штрих-код для отримання позиції",
   "@barcodeReceivePart": {},
-  "barcodeScanPaused": "Barcode scanning paused",
-  "@barodeScanPaused": {},
-  "barcodeScanPause": "Tap or hold to pause scanning",
+
+  "barcodeScanPaused": "Сканування штрих-коду призупинено",
+  "@barcodeScanPaused": {},
+
+  "barcodeScanPause": "Торкніться або утримуйте, щоб призупинити сканування",
   "@barcodeScanPause": {},
-  "barcodeScanAssign": "Scan to assign barcode",
+
+  "barcodeScanAssign": "Відскануйте для призначення штрих-коду",
   "@barcodeScanAssign": {},
-  "barcodeScanController": "Scanner Input",
+
+  "barcodeScanController": "Введення сканера",
   "@barcodeScanController": {},
-  "barcodeScanControllerDetail": "Select barcode scanner input source",
+
+  "barcodeScanControllerDetail": "Виберіть джерело введення сканера штрих-коду",
   "@barcodeScanControllerDetail": {},
-  "barcodeScanDelay": "Barcode Scan Delay",
+
+  "barcodeScanDelay": "Затримка сканування штрих-коду",
   "@barcodeScanDelay": {},
-  "barcodeScanDelayDetail": "Delay between barcode scans",
+
+  "barcodeScanDelayDetail": "Затримка між скануваннями штрих-коду",
   "@barcodeScanDelayDetail": {},
-  "barcodeScanGeneral": "Scan an InvenTree barcode",
+
+  "barcodeScanGeneral": "Відскануйте штрих-код InvenTree",
   "@barcodeScanGeneral": {},
-  "barcodeScanInItems": "Scan stock items into this location",
+
+  "barcodeScanInItems": "Відскануйте запас в цю локацію",
   "@barcodeScanInItems": {},
-  "barcodeScanLocation": "Scan stock location",
+
+  "barcodeScanLocation": "Відскануйте місцезнаходження запасу",
   "@barcodeScanLocation": {},
-  "barcodeScanSingle": "Single Scan Mode",
+
+  "barcodeScanSingle": "Режим одиночного сканування",
   "@barcodeScanSingle": {},
-  "barcodeScanSingleDetail": "Pause barcode scanner after each scan",
+
+  "barcodeScanSingleDetail": "Призупиняти сканер штрих-кодів після кожного сканування",
   "@barcodeScanSingleDetail": {},
-  "barcodeScanIntoLocationSuccess": "Scanned into location",
+
+  "barcodeScanIntoLocationSuccess": "Відскановано в місцезнаходження",
   "@barcodeScanIntoLocationSuccess": {},
-  "barcodeScanIntoLocationFailure": "Item not scanned in",
+
+  "barcodeScanIntoLocationFailure": "Позицію не відскановано",
   "@barcodeScanIntoLocationFailure": {},
-  "barcodeScanItem": "Scan stock item",
+
+  "barcodeScanItem": "Відскануйте позицію запасу",
   "@barcodeScanItem": {},
-  "barcodeTones": "Barcode Tones",
+
+  "barcodeTones": "Тони штрих-коду",
   "@barcodeTones": {},
-  "barcodeUnassign": "Unassign Barcode",
+
+  "barcodeUnassign": "Відмінити призначення штрих-коду",
   "@barcodeUnassign": {},
-  "barcodeUnknown": "Barcode is not recognized",
+
+  "barcodeUnknown": "Штрих-код не розпізнано",
   "@barcodeUnknown": {},
-  "batchCode": "Batch Code",
+
+  "batchCode": "Код партії",
   "@batchCode": {},
-  "billOfMaterials": "Bill of Materials",
+
+  "billOfMaterials": "Специфікація матеріалів",
   "@billOfMaterials": {},
+
   "bom": "BOM",
   "@bom": {},
-  "bomEnable": "Display Bill of Materials",
+
+  "bomEnable": "Показати специфікацію матеріалів",
   "@bomEnable": {},
-  "build": "Build",
+
+  "build": "Збірка",
   "@build": {},
-  "building": "Building",
+
+  "building": "Збірка триває",
   "@building": {},
-  "cameraCreationError": "Could not open camera controller",
+
+  "cameraCreationError": "Не вдалося відкрити контролер камери",
   "@cameraCreationError": {},
-  "cameraInternal": "Internal Camera",
+
+  "cameraInternal": "Внутрішня камера",
   "@cameraInternal": {},
-  "cameraInternalDetail": "Use internal camera to read barcodes",
+
+  "cameraInternalDetail": "Використовувати внутрішню камеру для зчитування штрих-кодів",
   "@cameraInternalDetail": {},
+
   "cancel": "Скасувати",
-  "@cancel": {
-    "description": "Cancel"
-  },
+  "@cancel": {},
+
   "cancelOrder": "Скасувати замовлення",
   "@cancelOrder": {},
+
   "category": "Категорія",
   "@category": {},
+
   "categoryCreate": "Нова категорія",
   "@categoryCreate": {},
-  "categoryCreateDetail": "Створити нову категорію деталей",
+
+  "categoryCreateDetail": "Створити нову категорію позиції",
   "@categoryCreateDetail": {},
-  "categoryUpdated": "Категорію частини оновлено",
+
+  "categoryUpdated": "Категорію позиції оновлено",
   "@categoryUpdated": {},
-  "company": "Company",
+
+  "company": "Компанія",
   "@company": {},
-  "companyAdd": "Add Company",
+
+  "companyAdd": "Додати компанію",
   "@companyAdd": {},
-  "companyEdit": "Edit Company",
+
+  "companyEdit": "Редагувати компанію",
   "@companyEdit": {},
-  "companyNoResults": "No companies matching query",
+
+  "companyNoResults": "Немає компаній, що відповідають запиту",
   "@companyNoResults": {},
-  "companyUpdated": "Company details updated",
+
+  "companyUpdated": "Деталі компанії оновлено",
   "@companyUpdated": {},
-  "companies": "Companies",
+
+  "companies": "Компанії",
   "@companies": {},
-  "completionDate": "Completion Date",
+
+  "completionDate": "Дата завершення",
   "@completionDate": {},
-  "configureServer": "Configure server settings",
+
+  "configureServer": "Налаштувати параметри сервера",
   "@configureServer": {},
-  "confirmScan": "Confirm Transfer",
+
+  "confirmScan": "Підтвердити передачу",
   "@confirmScan": {},
-  "confirmScanDetail": "Підтверджувати інформацію про передавання запасів під час сканування штрих-кодів",
-  "connectionRefused": "Connection Refused",
+
+  "confirmScanDetail": "Підтверджуйте деталі передачі запасу при скануванні штрих-кодів",
+  "@confirmScanDetail": {},
+
+  "connectionRefused": "Відмовлено у з'єднанні",
   "@connectionRefused": {},
-  "count": "Count",
-  "@count": {
-    "description": "Count"
-  },
-  "countStock": "Count Stock",
-  "@countStock": {
-    "description": "Count Stock"
-  },
-  "credits": "Credits",
+
+  "count": "Кількість",
+  "@count": {},
+
+  "countStock": "Підрахувати запас",
+  "@countStock": {},
+
+  "credits": "Автори",
   "@credits": {},
-  "customer": "Customer",
+
+  "customer": "Замовник",
   "@customer": {},
-  "customers": "Customers",
+
+  "customers": "Замовники",
   "@customers": {},
-  "customerReference": "Customer Reference",
+
+  "customerReference": "Номер замовлення замовника",
   "@customerReference": {},
-  "damaged": "Пошкоджений",
+
+  "damaged": "Пошкоджено",
   "@damaged": {},
+
   "colorScheme": "Колірна схема",
   "@colorScheme": {},
+
   "colorSchemeDetail": "Виберіть колірну схему",
   "@colorSchemeDetail": {},
-  "darkMode": "Темна тема",
+
+  "darkMode": "Темний режим",
   "@darkMode": {},
-  "darkModeEnable": "Enable dark mode",
+
+  "darkModeEnable": "Увімкнути темний режим",
   "@darkModeEnable": {},
+
   "delete": "Видалити",
   "@delete": {},
+
   "deleteFailed": "Помилка видалення",
   "@deleteFailed": {},
-  "deletePart": "Видалити деталь",
+
+  "deletePart": "Видалити позицію",
   "@deletePart": {},
-  "deletePartDetail": "Видалити цю частину з бази даних",
+
+  "deletePartDetail": "Видалити цю позицію з бази даних",
   "@deletePartDetail": {},
-  "deleteSuccess": "Операція видалення пройшла успішно",
+
+  "deleteSuccess": "Видалення успішне",
   "@deleteSuccess": {},
+
   "description": "Опис",
   "@description": {},
-  "destination": "Destination",
+
+  "destination": "Пункт призначення",
   "@destination": {},
-  "destroyed": "Destroyed",
+
+  "destroyed": "Знищено",
   "@destroyed": {},
-  "details": "Details",
-  "@details": {
-    "description": "details"
-  },
+
+  "details": "Деталі",
+  "@details": {},
+
   "documentation": "Документація",
   "@documentation": {},
+
   "downloading": "Завантаження файлу",
   "@downloading": {},
-  "downloadError": "Помилка Завантаження",
+
+  "downloadError": "Помилка завантаження",
   "@downloadError": {},
+
   "edit": "Редагувати",
-  "@edit": {
-    "description": "edit"
-  },
+  "@edit": {},
+
   "editAttachment": "Редагувати вкладення",
   "@editAttachment": {},
+
   "editCategory": "Редагувати категорію",
   "@editCategory": {},
-  "editLocation": "Edit Location",
+
+  "editLocation": "Редагувати місцезнаходження",
   "@editLocation": {},
-  "editNotes": "Edit Notes",
+
+  "editNotes": "Редагувати примітки",
   "@editNotes": {},
-  "editParameter": "Edit Parameter",
+
+  "editParameter": "Редагувати параметр",
   "@editParameter": {},
-  "editPart": "Редагувати деталь",
-  "@editPart": {
-    "description": "edit part"
-  },
-  "editItem": "Edit Stock Item",
+
+  "editPart": "Редагувати позицію",
+  "@editPart": {},
+
+  "editItem": "Редагувати позицію запасу",
   "@editItem": {},
-  "editLineItem": "Edit Line Item",
+
+  "editLineItem": "Редагувати пункт рядка",
   "@editLineItem": {},
-  "enterPassword": "Enter password",
+
+  "enterPassword": "Введіть пароль",
   "@enterPassword": {},
-  "enterUsername": "Enter username",
+
+  "enterUsername": "Введіть ім'я користувача",
   "@enterUsername": {},
-  "error": "Error",
-  "@error": {
-    "description": "Error"
-  },
-  "errorCreate": "Error creating database entry",
+
+  "error": "Помилка",
+  "@error": {},
+
+  "errorCreate": "Помилка створення запису в базі даних",
   "@errorCreate": {},
-  "errorDelete": "Error deleting database entry",
+
+  "errorDelete": "Помилка видалення запису з бази даних",
   "@errorDelete": {},
-  "errorDetails": "Error Details",
+
+  "errorDetails": "Деталі помилки",
   "@errorDetails": {},
-  "errorFetch": "Error fetching data from server",
+
+  "errorFetch": "Помилка отримання даних із сервера",
   "@errorFetch": {},
-  "errorUserRoles": "Error requesting user roles from server",
+
+  "errorUserRoles": "Помилка запиту ролей користувача з сервера",
   "@errorUserRoles": {},
+
   "errorPluginInfo": "Помилка запиту даних плагіна з сервера",
   "@errorPluginInfo": {},
-  "errorReporting": "Error Reporting",
+
+  "errorReporting": "Звіт про помилки",
   "@errorReporting": {},
-  "errorReportUpload": "Upload Error Reports",
+
+  "errorReportUpload": "Завантажити звіти про помилки",
   "@errorReportUpload": {},
-  "errorReportUploadDetails": "Вивантажувати анонімні звіти про помилки та журнали помилок",
+
+  "errorReportUploadDetails": "Завантажувати анонімні звіти про помилки та журнали збоїв",
   "@errorReportUploadDetails": {},
-  "expiryDate": "Expiry Date",
+
+  "expiryDate": "Термін придатності",
   "@expiryDate": {},
-  "expiryExpired": "Expired",
+
+  "expiryExpired": "Прострочено",
   "@expiryExpired": {},
-  "expiryStale": "Stale",
+
+  "expiryStale": "Застарілий",
   "@expiryStale": {},
-  "feedback": "Feedback",
+
+  "feedback": "Зворотній зв'язок",
   "@feedback": {},
-  "feedbackError": "Error submitting feedback",
+
+  "feedbackError": "Помилка надсилання відгуку",
   "@feedbackError": {},
-  "feedbackSuccess": "Feedback submitted",
+
+  "feedbackSuccess": "Відгук надіслано",
   "@feedbackSuccess": {},
-  "filterActive": "Active",
+
+  "filterActive": "Активний",
   "@filterActive": {},
-  "filterActiveDetail": "Show active parts",
+
+  "filterActiveDetail": "Показати активні позиції",
   "@filterActiveDetail": {},
-  "filterAssembly": "Assembled",
+
+  "filterAssembly": "Зібрано",
   "@filterAssembly": {},
-  "filterAssemblyDetail": "Show assembled parts",
+
+  "filterAssemblyDetail": "Показати зібрані позиції",
   "@filterAssemblyDetail": {},
-  "filterComponent": "Component",
+
+  "filterComponent": "Компонент",
   "@filterComponent": {},
-  "filterComponentDetail": "Show component parts",
+
+  "filterComponentDetail": "Показати позиції-компоненти",
   "@filterComponentDetail": {},
-  "filterExternal": "External",
+
+  "filterExternal": "Зовнішній",
   "@filterExternal": {},
-  "filterExternalDetail": "Show stock in external locations",
+
+  "filterExternalDetail": "Показати запас у зовнішніх місцях",
   "@filterExternalDetail": {},
+
   "filterInStock": "В наявності",
   "@filterInStock": {},
-  "filterInStockDetail": "Show parts which have stock",
+
+  "filterInStockDetail": "Показати позиції, які мають запас",
   "@filterInStockDetail": {},
-  "filterSerialized": "Serialized",
+
+  "filterSerialized": "Серійний",
   "@filterSerialized": {},
-  "filterSerializedDetail": "Show serialized stock items",
+
+  "filterSerializedDetail": "Показати позиції запасу із серійними номерами",
   "@filterSerializedDetail": {},
-  "filterTemplate": "Template",
+
+  "filterTemplate": "Шаблон",
   "@filterTemplate": {},
-  "filterTemplateDetail": "Show template parts",
+
+  "filterTemplateDetail": "Показати позиції-шаблони",
   "@filterTemplateDetail": {},
-  "filterTrackable": "Trackable",
+
+  "filterTrackable": "Відстежуваний",
   "@filterTrackable": {},
-  "filterTrackableDetail": "Show trackable parts",
+
+  "filterTrackableDetail": "Показати позиції, що підлягають відстеженню",
   "@filterTrackableDetail": {},
-  "filterVirtual": "Virtual",
+
+  "filterVirtual": "Віртуальний",
   "@filterVirtual": {},
-  "filterVirtualDetail": "Show virtual parts",
+
+  "filterVirtualDetail": "Показати віртуальні позиції",
   "@filterVirtualDetail": {},
-  "filteringOptions": "Filtering Options",
+
+  "filteringOptions": "Параметри фільтрації",
   "@filteringOptions": {},
-  "formatException": "Format Exception",
+
+  "formatException": "Виняток формату",
   "@formatException": {},
-  "formatExceptionJson": "JSON data format exception",
+
+  "formatExceptionJson": "Виняток формату даних JSON",
   "@formatExceptionJson": {},
-  "formError": "Form Error",
+
+  "formError": "Помилка форми",
   "@formError": {},
-  "history": "History",
-  "@history": {
-    "description": "history"
-  },
-  "home": "Home",
+
+  "history": "Історія",
+  "@history": {},
+
+  "home": "Головна",
+  "@home": {},
+
+  "homeScreen": "Головний екран",
   "@homeScreen": {},
-  "homeScreen": "Home Screen",
-  "homeScreenSettings": "Configure home screen settings",
+
+  "homeScreenSettings": "Налаштувати параметри головного екрану",
   "@homeScreenSettings": {},
-  "homeShowPo": "Show Purchase Orders",
+
+  "homeShowPo": "Показати замовлення на закупівлю",
   "@homeShowPo": {},
-  "homeShowPoDescription": "Показувати кнопку замовлення на домашньому екрані",
+
+  "homeShowPoDescription": "Показати кнопку замовлення на закупівлю на головному екрані",
   "@homeShowPoDescription": {},
-  "homeShowSo": "Show Sales Orders",
+
+  "homeShowSo": "Показати замовлення на продаж",
   "@homeShowSo": {},
-  "homeShowSoDescription": "Show sales order button on home screen",
+
+  "homeShowSoDescription": "Показати кнопку замовлення на продаж на головному екрані",
   "@homeShowSoDescription": {},
-  "homeShowSubscribed": "Subscribed Parts",
+
+  "homeShowSubscribed": "Підписані позиції",
   "@homeShowSubscribed": {},
-  "homeShowSubscribedDescription": "Show subscribed parts on home screen",
-  "@homeShowSubscsribedDescription": {},
-  "homeShowSuppliers": "Show Suppliers",
+
+  "homeShowSubscribedDescription": "Показати підписані позиції на головному екрані",
+  "@homeShowSubscribedDescription": {},
+
+  "homeShowSuppliers": "Показати постачальників",
   "@homeShowSuppliers": {},
-  "homeShowSuppliersDescription": "Show suppliers button on home screen",
-  "@homeShowSupplierDescription": {},
-  "homeShowManufacturers": "Show Manufacturers",
+
+  "homeShowSuppliersDescription": "Показати кнопку постачальників на головному екрані",
+  "@homeShowSuppliersDescription": {},
+
+  "homeShowManufacturers": "Показати виробників",
   "@homeShowManufacturers": {},
-  "homeShowManufacturersDescription": "Показувати кнопку виробника на головному екрані",
+
+  "homeShowManufacturersDescription": "Показати кнопку виробників на головному екрані",
   "@homeShowManufacturersDescription": {},
-  "homeShowCustomers": "Show Customers",
+
+  "homeShowCustomers": "Показати замовників",
   "@homeShowCustomers": {},
-  "homeShowCustomersDescription": "Show customers button on home screen",
+
+  "homeShowCustomersDescription": "Показати кнопку замовників на головному екрані",
   "@homeShowCustomersDescription": {},
-  "imageUploadFailure": "Image upload failed",
+
+  "imageUploadFailure": "Помилка завантаження зображення",
   "@imageUploadFailure": {},
-  "imageUploadSuccess": "Image uploaded",
+
+  "imageUploadSuccess": "Зображення завантажено",
   "@imageUploadSuccess": {},
-  "inactive": "Inactive",
+
+  "inactive": "Неактивний",
   "@inactive": {},
-  "inactiveCompany": "This company is marked as inactive",
+
+  "inactiveCompany": "Ця компанія позначена як неактивна",
   "@inactiveCompany": {},
-  "inactiveDetail": "This part is marked as inactive",
+
+  "inactiveDetail": "Ця позиція позначена як неактивна",
   "@inactiveDetail": {},
-  "includeSubcategories": "Include Subcategories",
+
+  "includeSubcategories": "Включити підкатегорії",
   "@includeSubcategories": {},
-  "includeSubcategoriesDetail": "Show results from subcategories",
+
+  "includeSubcategoriesDetail": "Показати результати з підкатегорій",
   "@includeSubcategoriesDetail": {},
-  "includeSublocations": "Include Sublocations",
+
+  "includeSublocations": "Включити підрозміщення",
   "@includeSublocations": {},
-  "includeSublocationsDetail": "Show results from sublocations",
+
+  "includeSublocationsDetail": "Показати результати з підрозміщень",
   "@includeSublocationsDetail": {},
-  "incompleteDetails": "Incomplete profile details",
+
+  "incompleteDetails": "Неповні дані профілю",
   "@incompleteDetails": {},
-  "internalPartNumber": "Internal Part Number",
+
+  "internalPartNumber": "Внутрішній номер позиції",
   "@internalPartNumber": {},
-  "info": "Info",
+
+  "info": "Інформація",
   "@info": {},
-  "inProduction": "In Production",
+
+  "inProduction": "У виробництві",
   "@inProduction": {},
-  "inProductionDetail": "This stock item is in production",
+
+  "inProductionDetail": "Ця позиція запасу знаходиться у виробництві",
   "@inProductionDetail": {},
-  "internalPart": "Internal Part",
+
+  "internalPart": "Внутрішня позиція",
   "@internalPart": {},
-  "invalidHost": "Invalid hostname",
+
+  "invalidHost": "Недійсне ім'я хоста",
   "@invalidHost": {},
-  "invalidHostDetails": "Provided hostname is not valid",
+
+  "invalidHostDetails": "Надане ім'я хоста не є дійсним",
   "@invalidHostDetails": {},
-  "invalidPart": "Invalid Part",
+
+  "invalidPart": "Недійсна позиція",
   "@invalidPart": {},
-  "invalidPartCategory": "Неправильна категорія деталі",
+
+  "invalidPartCategory": "Недійсна категорія позиції",
   "@invalidPartCategory": {},
-  "invalidStockLocation": "Invalid Stock Location",
+
+  "invalidStockLocation": "Недійсне місцезнаходження запасу",
   "@invalidStockLocation": {},
-  "invalidStockItem": "Invalid Stock Item",
+
+  "invalidStockItem": "Недійсна позиція запасу",
   "@invalidStockItem": {},
-  "invalidSupplierPart": "Invalid Supplier Part",
+
+  "invalidSupplierPart": "Недійсний номер позиції постачальника",
   "@invalidSupplierPart": {},
-  "invalidUsernamePassword": "Invalid username / password combination",
+
+  "invalidUsernamePassword": "Недійсна комбінація імені користувача / пароля",
   "@invalidUsernamePassword": {},
-  "issue": "Issue",
+
+  "issue": "Випуск",
   "@issue": {},
-  "issueDate": "Issue Date",
+
+  "issueDate": "Дата випуску",
   "@issueDate": {},
-  "issueOrder": "Issue Order",
+
+  "issueOrder": "Видати замовлення",
   "@issueOrder": {},
-  "itemInLocation": "Item already in location",
+
+  "itemInLocation": "Позиція вже в місцезнаходженні",
   "@itemInLocation": {},
-  "itemDeleted": "Item has been removed",
+
+  "itemDeleted": "Позицію видалено",
   "@itemDeleted": {},
-  "itemUpdated": "Item updated",
+
+  "itemUpdated": "Позицію оновлено",
   "@itemUpdated": {},
-  "keywords": "Keywords",
+
+  "keywords": "Ключові слова",
   "@keywords": {},
-  "labelPrinting": "Label Printing",
+
+  "labelPrinting": "Друк етикеток",
   "@labelPrinting": {},
-  "labelPrintingDetail": "Enable label printing",
+
+  "labelPrintingDetail": "Увімкнути друк етикеток",
   "@labelPrintingDetail": {},
-  "labelTemplate": "Label Template",
+
+  "labelTemplate": "Шаблон етикетки",
   "@labelTemplate": {},
-  "labelSelectTemplate": "Select Label Template",
+
+  "labelSelectTemplate": "Виберіть шаблон етикетки",
   "@labelSelectTemplate": {},
-  "labelSelectPrinter": "Select Label Printer",
+
+  "labelSelectPrinter": "Виберіть принтер етикеток",
   "@labelSelectPrinter": {},
-  "language": "Language",
+
+  "language": "Мова",
   "@language": {},
-  "languageDefault": "Default system language",
+
+  "languageDefault": "Мова системи за замовчуванням",
   "@languageDefault": {},
-  "languageSelect": "Select Language",
+
+  "languageSelect": "Виберіть мову",
   "@languageSelect": {},
-  "lastStocktake": "Last Stocktake",
+
+  "lastStocktake": "Остання інвентаризація",
   "@lastStocktake": {},
-  "lastUpdated": "Last Updated",
+
+  "lastUpdated": "Останнє оновлення",
   "@lastUpdated": {},
-  "level": "Level",
+
+  "level": "Рівень",
   "@level": {},
-  "lineItemAdd": "Add Line Item",
+
+  "lineItemAdd": "Додати пункт рядка",
   "@lineItemAdd": {},
-  "lineItem": "Line Item",
+
+  "lineItem": "Пункт рядка",
   "@lineItem": {},
-  "lineItems": "Line Items",
+
+  "lineItems": "Пункти рядка",
   "@lineItems": {},
-  "lineItemUpdated": "Line item updated",
+
+  "lineItemUpdated": "Пункт рядка оновлено",
   "@lineItemUpdated": {},
-  "locateItem": "Locate stock item",
+
+  "locateItem": "Знайти позицію запасу",
   "@locateItem": {},
-  "locateLocation": "Locate stock location",
+
+  "locateLocation": "Знайти місцезнаходження запасу",
   "@locateLocation": {},
-  "locationCreate": "New Location",
+
+  "locationCreate": "Нове місцезнаходження",
   "@locationCreate": {},
-  "locationCreateDetail": "Create new stock location",
+
+  "locationCreateDetail": "Створити нове місцезнаходження запасу",
   "@locationCreateDetail": {},
-  "locationNotSet": "No location specified",
+
+  "locationNotSet": "Не вказано місцезнаходження",
   "@locationNotSet": {},
-  "locationUpdated": "Stock location updated",
+
+  "locationUpdated": "Місцезнаходження запасу оновлено",
   "@locationUpdated": {},
-  "login": "Login",
+
+  "login": "Вхід",
   "@login": {},
-  "loginEnter": "Enter login details",
+
+  "loginEnter": "Введіть дані для входу",
   "@loginEnter": {},
+
   "loginEnterDetails": "Ім'я користувача та пароль не зберігаються локально",
   "@loginEnterDetails": {},
-  "link": "Link",
+
+  "link": "Посилання",
   "@link": {},
-  "lost": "Lost",
+
+  "lost": "Втрачено",
   "@lost": {},
-  "manufacturerPart": "Manufacturer Part",
+
+  "manufacturerPart": "Номер позиції виробника",
   "@manufacturerPart": {},
-  "manufacturerPartEdit": "Edit Manufacturer Part",
+
+  "manufacturerPartEdit": "Редагувати номер позиції виробника",
   "@manufacturerPartEdit": {},
-  "manufacturerPartNumber": "Manufacturer Part Number",
+
+  "manufacturerPartNumber": "Номер позиції виробника",
   "@manufacturerPartNumber": {},
-  "manufacturer": "Manufacturer",
+
+  "manufacturer": "Виробник",
   "@manufacturer": {},
-  "manufacturers": "Manufacturers",
+
+  "manufacturers": "Виробники",
   "@manufacturers": {},
-  "missingData": "Missing Data",
+
+  "missingData": "Відсутні дані",
   "@missingData": {},
-  "name": "Name",
+
+  "name": "Назва",
   "@name": {},
-  "notConnected": "Not Connected",
+
+  "notConnected": "Не підключено",
   "@notConnected": {},
-  "notes": "Notes",
-  "@notes": {
-    "description": "Notes"
-  },
-  "notifications": "Notifications",
+
+  "notes": "Примітки",
+  "@notes": {},
+
+  "notifications": "Сповіщення",
   "@notifications": {},
-  "notificationsEmpty": "No unread notifications",
-  "@notificationsEmpty": {},
-  "noResponse": "No Response from Server",
+
+  "noResponse": "Немає відповіді від сервера",
   "@noResponse": {},
-  "noResults": "No Results",
+
+  "noResults": "Немає результатів",
   "@noResults": {},
-  "noSubcategories": "No Subcategories",
+
+  "noSubcategories": "Немає підкатегорій",
   "@noSubcategories": {},
-  "noSubcategoriesAvailable": "No subcategories available",
+
+  "noSubcategoriesAvailable": "Немає доступних підкатегорій",
   "@noSubcategoriesAvailable": {},
-  "numberInvalid": "Invalid number",
+
+  "numberInvalid": "Недійсне число",
   "@numberInvalid": {},
-  "onOrder": "On Order",
+
+  "onOrder": "В замовленні",
   "@onOrder": {},
-  "onOrderDetails": "Items currently on order",
+
+  "onOrderDetails": "Позиції, які зараз в замовленні",
   "@onOrderDetails": {},
-  "orientation": "Screen Orientation",
+
+  "orientation": "Орієнтація екрана",
   "@orientation": {},
-  "orientationDetail": "Screen orientation (requires restart)",
+
+  "orientationDetail": "Орієнтація екрана (потрібне перезавантаження)",
   "@orientationDetail": {},
-  "orientationLandscape": "Landscape",
+
+  "orientationLandscape": "Альбомна",
   "@orientationLandscape": {},
-  "orientationPortrait": "Portrait",
+
+  "orientationPortrait": "Книжкова",
   "@orientationPortrait": {},
-  "orientationSystem": "System",
+
+  "orientationSystem": "Системна",
   "@orientationSystem": {},
-  "outstanding": "Outstanding",
+
+  "outstanding": "Не виконано",
   "@outstanding": {},
-  "outstandingOrderDetail": "Show outstanding orders",
+
+  "outstandingOrderDetail": "Показати невиконані замовлення",
   "@outstandingOrderDetail": {},
-  "overdue": "Overdue",
+
+  "overdue": "Прострочено",
   "@overdue": {},
-  "overdueDetail": "Show overdue orders",
+
+  "overdueDetail": "Показати прострочені замовлення",
   "@overdueDetail": {},
-  "packaging": "Packaging",
+
+  "packaging": "Пакування",
   "@packaging": {},
-  "packageName": "Package Name",
+
+  "packageName": "Назва пакунка",
   "@packageName": {},
-  "parameters": "Parameters",
+
+  "parameters": "Параметри",
   "@parameters": {},
-  "parametersSettingDetail": "Display part parameters",
+
+  "parametersSettingDetail": "Показати параметри позиції",
   "@parametersSettingDetail": {},
-  "parent": "Parent",
+
+  "parent": "Батьківський",
   "@parent": {},
+
   "parentCategory": "Батьківська категорія",
   "@parentCategory": {},
-  "parentLocation": "Parent Location",
+
+  "parentLocation": "Батьківське місцезнаходження",
   "@parentLocation": {},
-  "part": "Part",
-  "@part": {
-    "description": "Part (single)"
-  },
-  "partCreate": "New Part",
+
+  "part": "Позиція",
+  "@part": {},
+
+  "partCreate": "Нова позиція",
   "@partCreate": {},
-  "partCreateDetail": "Створити нову категорію деталей",
+
+  "partCreateDetail": "Створити нову позицію в цій категорії",
   "@partCreateDetail": {},
-  "partEdited": "Part updated",
+
+  "partEdited": "Позицію оновлено",
   "@partEdited": {},
-  "parts": "Parts",
-  "@parts": {
-    "description": "Part (multiple)"
-  },
-  "partNotSalable": "Part not marked as salable",
+
+  "parts": "Позиції",
+  "@parts": {},
+
+  "partNotSalable": "Позиція не позначена як доступна для продажу",
   "@partNotSalable": {},
-  "partsNone": "No Parts",
+
+  "partsNone": "Немає позицій",
   "@partsNone": {},
-  "partNoResults": "No parts matching query",
+
+  "partNoResults": "Немає позицій, що відповідають запиту",
   "@partNoResults": {},
-  "partSettings": "Part Settings",
+
+  "partSettings": "Налаштування позиції",
   "@partSettings": {},
-  "partsStarred": "Subscribed Parts",
+
+  "partsStarred": "Підписані позиції",
   "@partsStarred": {},
-  "partsStarredNone": "No starred parts available",
+
+  "partsStarredNone": "Немає доступних позицій з позначкою",
   "@partsStarredNone": {},
-  "partSuppliers": "Part Suppliers",
+
+  "partSuppliers": "Постачальники позиції",
   "@partSuppliers": {},
-  "partCategory": "Категорія деталей",
+
+  "partCategory": "Категорія позиції",
   "@partCategory": {},
-  "partCategoryTopLevel": "Категорія деталей вищого рівня",
+
+  "partCategoryTopLevel": "Категорія позиції верхнього рівня",
   "@partCategoryTopLevel": {},
-  "partCategories": "Part Categories",
+
+  "partCategories": "Категорії позицій",
   "@partCategories": {},
-  "partDetails": "Part Details",
+
+  "partDetails": "Деталі позиції",
   "@partDetails": {},
-  "partNotes": "Part Notes",
+
+  "partNotes": "Примітки до позиції",
   "@partNotes": {},
-  "partStock": "Part Stock",
-  "@partStock": {
-    "description": "part stock"
-  },
-  "password": "Password",
+
+  "partStock": "Запас позиції",
+  "@partStock": {},
+
+  "password": "Пароль",
   "@password": {},
-  "passwordEmpty": "Password cannot be empty",
+
+  "passwordEmpty": "Пароль не може бути порожнім",
   "@passwordEmpty": {},
-  "permissionAccountDenied": "Ваш обліковий запис не має необхідних прав для виконання цієї дії",
+
+  "permissionAccountDenied": "Ваш обліковий запис не має необхідних дозволів для виконання цієї дії",
   "@permissionAccountDenied": {},
-  "permissionRequired": "Permission Required",
+
+  "permissionRequired": "Необхідний дозвіл",
   "@permissionRequired": {},
-  "printLabel": "Print Label",
+
+  "printLabel": "Друк етикетки",
   "@printLabel": {},
-  "plugin": "Plugin",
+
+  "plugin": "Плагін",
   "@plugin": {},
-  "pluginPrinter": "Printer",
+
+  "pluginPrinter": "Принтер",
   "@pluginPrinter": {},
-  "pluginSupport": "Plugin Support Enabled",
+
+  "pluginSupport": "Підтримку плагінів увімкнено",
   "@pluginSupport": {},
-  "pluginSupportDetail": "The server supports custom plugins",
+
+  "pluginSupportDetail": "Сервер підтримує власні плагіни",
   "@pluginSupportDetail": {},
-  "printLabelFailure": "Label printing failed",
+
+  "printLabelFailure": "Помилка друку етикетки",
   "@printLabelFailure": {},
-  "printLabelSuccess": "Label sent to printer",
+
+  "printLabelSuccess": "Етикетку відправлено на принтер",
   "@printLabelSuccess": {},
-  "profile": "Profile",
+
+  "profile": "Профіль",
   "@profile": {},
-  "profileAdd": "Add Server Profile",
+
+  "profileAdd": "Додати профіль сервера",
   "@profileAdd": {},
-  "profileConnect": "Connect to Server",
+
+  "profileConnect": "Підключитися до сервера",
   "@profileConnect": {},
-  "profileEdit": "Edit Server Profile",
+
+  "profileEdit": "Редагувати профіль сервера",
   "@profileEdit": {},
-  "profileDelete": "Delete Server Profile",
+
+  "profileDelete": "Видалити профіль сервера",
   "@profileDelete": {},
-  "profileLogout": "Logout Profile",
+
+  "profileLogout": "Вийти з профілю",
   "@profileLogout": {},
-  "profileName": "Profile Name",
+
+  "profileName": "Назва профілю",
   "@profileName": {},
-  "profileNone": "No profiles available",
+
+  "profileNone": "Немає доступних профілів",
   "@profileNone": {},
-  "profileNotSelected": "No Profile Selected",
+
+  "profileNotSelected": "Не вибрано жодного профілю",
   "@profileNotSelected": {},
-  "profileSelect": "Select InvenTree Server",
+
+  "profileSelect": "Виберіть сервер InvenTree",
   "@profileSelect": {},
-  "profileSelectOrCreate": "Select server or create a new profile",
+
+  "profileSelectOrCreate": "Виберіть сервер або створіть новий профіль",
   "@profileSelectOrCreate": {},
-  "profileTapToCreate": "Tap to create or select a profile",
+
+  "profileTapToCreate": "Торкніться, щоб створити або вибрати профіль",
   "@profileTapToCreate": {},
-  "projectCode": "Project Code",
+
+  "projectCode": "Код проекту",
   "@projectCode": {},
-  "purchaseOrderConfirmScan": "Confirm Scan Data",
-  "@purchaseOrderConfirmScan": {},
-  "purchaseOrderConfirmScanDetail": "Confirm details when scanning in items",
-  "@purchaseOrderConfirmScanDetail": {},
-  "purchaseOrderEnable": "Enable Purchase Orders",
-  "@purchaseOrderEnable": {},
-  "purchaseOrderEnableDetail": "Enable purchase order functionality",
-  "@purchaseOrderEnableDetail": {},
-  "purchaseOrderShowCamera": "Camera Shortcut",
-  "@purchaseOrderShowCamera": {},
-  "purchaseOrderShowCameraDetail": "Enable image upload shortcut on purchase order screen",
-  "@purchaseOrderShowCameraDetail": {},
-  "purchaseOrder": "Purchase Order",
+
+  "purchaseOrder": "Замовлення на закупівлю",
   "@purchaseOrder": {},
-  "purchaseOrderCreate": "New Purchase Order",
+
+  "purchaseOrderCreate": "Нове замовлення на закупівлю",
   "@purchaseOrderCreate": {},
-  "purchaseOrderEdit": "Edit Purchase Order",
+
+  "purchaseOrderEdit": "Редагувати замовлення на закупівлю",
   "@purchaseOrderEdit": {},
-  "purchaseOrderSettings": "Purchase order settings",
-  "@purchaseOrderSettings": {},
-  "purchaseOrders": "Purchase Orders",
+
+  "purchaseOrders": "Замовлення на закупівлю",
   "@purchaseOrders": {},
-  "purchaseOrderUpdated": "Purchase order updated",
+
+  "purchaseOrderUpdated": "Замовлення на закупівлю оновлено",
   "@purchaseOrderUpdated": {},
-  "purchasePrice": "Purchase Price",
+
+  "purchasePrice": "Ціна закупівлі",
   "@purchasePrice": {},
-  "quantity": "Quantity",
-  "@quantity": {
-    "description": "Quantity"
-  },
-  "quantityAvailable": "Quantity Available",
+
+  "quantity": "Кількість",
+  "@quantity": {},
+
+  "quantityAvailable": "Доступна кількість",
   "@quantityAvailable": {},
-  "quantityEmpty": "Quantity is empty",
+
+  "quantityEmpty": "Кількість порожня",
   "@quantityEmpty": {},
-  "quantityInvalid": "Quantity is invalid",
+
+  "quantityInvalid": "Кількість недійсна",
   "@quantityInvalid": {},
-  "quantityPositive": "Quantity must be positive",
+
+  "quantityPositive": "Кількість має бути позитивною",
   "@quantityPositive": {},
-  "queryEmpty": "Enter search query",
+
+  "queryEmpty": "Введіть пошуковий запит",
   "@queryEmpty": {},
-  "queryNoResults": "No results for query",
+
+  "queryNoResults": "Немає результатів для запиту",
   "@queryNoResults": {},
-  "received": "Received",
+
+  "received": "Отримано",
   "@received": {},
-  "receivedFilterDetail": "Show received items",
+
+  "receivedFilterDetail": "Показати отримані позиції",
   "@receivedFilterDetail": {},
-  "receiveItem": "Receive Item",
+
+  "receiveItem": "Отримати позицію",
   "@receiveItem": {},
-  "receivedItem": "Received Stock Item",
+
+  "receivedItem": "Отримано позицію запасу",
   "@receivedItem": {},
-  "reference": "Reference",
+
+  "reference": "Посилання",
   "@reference": {},
-  "refresh": "Refresh",
+
+  "refresh": "Оновити",
   "@refresh": {},
-  "refreshing": "Refreshing",
+
+  "refreshing": "Оновлення",
   "@refreshing": {},
-  "rejected": "Rejected",
+
+  "rejected": "Відхилено",
   "@rejected": {},
-  "releaseNotes": "Release Notes",
+
+  "releaseNotes": "Примітки до випуску",
   "@releaseNotes": {},
-  "remove": "Remove",
-  "@remove": {
-    "description": "remove"
-  },
-  "removeStock": "Remove Stock",
-  "@removeStock": {
-    "description": "remove stock"
-  },
-  "reportBug": "Report Bug",
+
+  "remove": "Видалити",
+  "@remove": {},
+
+  "removeStock": "Видалити запас",
+  "@removeStock": {},
+
+  "reportBug": "Повідомити про помилку",
   "@reportBug": {},
-  "reportBugDescription": "Відправити звіт про помилку (потрібен обліковий запис GitHub)",
+
+  "reportBugDescription": "Надіслати звіт про помилку (потрібен обліковий запис GitHub)",
   "@reportBugDescription": {},
-  "responsible": "Responsible",
+
+  "responsible": "Відповідальний",
   "@responsible": {},
-  "results": "Results",
+
+  "results": "Результати",
   "@results": {},
-  "request": "Request",
+
+  "request": "Запит",
   "@request": {},
-  "requestFailed": "Request Failed",
+
+  "requestFailed": "Помилка запиту",
   "@requestFailed": {},
-  "requestSuccessful": "Request successful",
+
+  "requestSuccessful": "Запит успішний",
   "@requestSuccessful": {},
-  "requestingData": "Requesting Data",
+
+  "requestingData": "Запит даних",
   "@requestingData": {},
-  "required": "Required",
-  "@required": {
-    "description": "This field is required"
-  },
-  "response400": "Bad Request",
+
+  "required": "Обов'язково",
+  "@required": {},
+
+  "response400": "Поганий запит",
   "@response400": {},
-  "response401": "Unauthorized",
+
+  "response401": "Не авторизовано",
   "@response401": {},
-  "response403": "Permission Denied",
+
+  "response403": "Доступ заборонено",
   "@response403": {},
-  "response404": "Resource Not Found",
+
+  "response404": "Ресурс не знайдено",
   "@response404": {},
-  "response405": "Method Not Allowed",
+
+  "response405": "Метод не дозволено",
   "@response405": {},
-  "response429": "Too Many Requests",
+
+  "response429": "Забагато запитів",
   "@response429": {},
-  "response500": "Internal Server Error",
+
+  "response500": "Внутрішня помилка сервера",
   "@response500": {},
-  "response501": "Not Implemented",
+
+  "response501": "Не реалізовано",
   "@response501": {},
-  "response502": "Bad Gateway",
+
+  "response502": "Поганий шлюз",
   "@response502": {},
-  "response503": "Service Unavailable",
+
+  "response503": "Сервіс недоступний",
   "@response503": {},
-  "response504": "Gateway Timeout",
+
+  "response504": "Тайм-аут шлюзу",
   "@response504": {},
-  "response505": "HTTP Version Not Supported",
+
+  "response505": "Версія HTTP не підтримується",
   "@response505": {},
-  "responseData": "Response data",
+
+  "responseData": "Дані відповіді",
   "@responseData": {},
-  "responseInvalid": "Invalid Response Code",
+
+  "responseInvalid": "Недійсний код відповіді",
   "@responseInvalid": {},
-  "responseUnknown": "Unknown Response",
+
+  "responseUnknown": "Невідома відповідь",
   "@responseUnknown": {},
-  "result": "Result",
-  "@result": {
-    "description": ""
-  },
-  "returned": "Returned",
+
+  "result": "Результат",
+  "@result": {},
+
+  "returned": "Повернуто",
   "@returned": {},
-  "salesOrder": "Sales Order",
+
+  "salesOrder": "Замовлення на продаж",
   "@salesOrder": {},
-  "salesOrders": "Sales Orders",
+
+  "salesOrders": "Замовлення на продаж",
   "@salesOrders": {},
-  "salesOrderEnable": "Enable Sales Orders",
-  "@salesOrderEnable": {},
-  "salesOrderEnableDetail": "Enable sales order functionality",
-  "@salesOrderEnableDetail": {},
-  "salesOrderShowCamera": "Camera Shortcut",
-  "@salesOrderShowCamera": {},
-  "salesOrderShowCameraDetail": "Enable image upload shortcut on sales order screen",
-  "@salesOrderShowCameraDetail": {},
-  "salesOrderSettings": "Sales order settings",
+
+  "salesOrderSettings": "Налаштування замовлення на продаж",
   "@salesOrderSettings": {},
-  "salesOrderCreate": "New Sales Order",
-  "@saleOrderCreate": {},
-  "salesOrderEdit": "Edit Sales Order",
+
+  "salesOrderCreate": "Нове замовлення на продаж",
+  "@salesOrderCreate": {},
+
+  "salesOrderEdit": "Редагувати замовлення на продаж",
   "@salesOrderEdit": {},
-  "salesOrderUpdated": "Sales order updated",
+
+  "salesOrderUpdated": "Замовлення на продаж оновлено",
   "@salesOrderUpdated": {},
-  "save": "Save",
-  "@save": {
-    "description": "Save"
-  },
-  "scanBarcode": "Scan Barcode",
+
+  "save": "Зберегти",
+  "@save": {},
+
+  "scanBarcode": "Відсканувати штрих-код",
   "@scanBarcode": {},
-  "scanSupplierPart": "Scan supplier part barcode",
+
+  "scanSupplierPart": "Відсканувати штрих-код позиції постачальника",
   "@scanSupplierPart": {},
-  "scanIntoLocation": "Scan Into Location",
+
+  "scanIntoLocation": "Відсканувати в місцезнаходження",
   "@scanIntoLocation": {},
-  "scanIntoLocationDetail": "Scan this item into location",
+
+  "scanIntoLocationDetail": "Відсканувати цю позицію в місцезнаходження",
   "@scanIntoLocationDetail": {},
-  "scannerExternal": "External Scanner",
+
+  "scannerExternal": "Зовнішній сканер",
   "@scannerExternal": {},
-  "scannerExternalDetail": "Використовувати зовнішній сканер для читання штрих-кодів (wedge режим)",
+
+  "scannerExternalDetail": "Використовувати зовнішній сканер для зчитування штрих-кодів (режим клина)",
   "@scannerExternalDetail": {},
-  "scanReceivedParts": "Scan Received Parts",
+
+  "scanReceivedParts": "Відсканувати отримані позиції",
   "@scanReceivedParts": {},
-  "search": "Search",
-  "@search": {
-    "description": "search"
-  },
-  "searching": "Searching",
+
+  "search": "Пошук",
+  "@search": {},
+
+  "searching": "Пошук",
   "@searching": {},
-  "searchLocation": "Search for location",
+
+  "searchLocation": "Шукати місцезнаходження",
   "@searchLocation": {},
-  "searchParts": "Search Parts",
+
+  "searchParts": "Шукати позиції",
   "@searchParts": {},
-  "searchStock": "Search Stock",
+
+  "searchStock": "Шукати запас",
   "@searchStock": {},
-  "select": "Select",
+
+  "select": "Вибрати",
   "@select": {},
-  "selectFile": "Select File",
+
+  "selectFile": "Вибрати файл",
   "@selectFile": {},
-  "selectImage": "Select Image",
+
+  "selectImage": "Вибрати зображення",
   "@selectImage": {},
-  "selectLocation": "Select a location",
+
+  "selectLocation": "Виберіть місцезнаходження",
   "@selectLocation": {},
-  "send": "Send",
+
+  "send": "Надіслати",
   "@send": {},
-  "serialNumber": "Serial Number",
+
+  "serialNumber": "Серійний номер",
   "@serialNumber": {},
-  "serialNumbers": "Serial Numbers",
+
+  "serialNumbers": "Серійні номери",
   "@serialNumbers": {},
-  "server": "Server",
+
+  "server": "Сервер",
   "@server": {},
-  "serverAddress": "Server Address",
+
+  "serverAddress": "Адреса сервера",
   "@serverAddress": {},
-  "serverApiRequired": "Required API Version",
+
+  "serverApiRequired": "Обов'язкова версія API",
   "@serverApiRequired": {},
-  "serverApiVersion": "Server API Version",
+
+  "serverApiVersion": "Версія API сервера",
   "@serverApiVersion": {},
-  "serverAuthenticationError": "Authentication Error",
+
+  "serverAuthenticationError": "Помилка автентифікації",
   "@serverAuthenticationError": {},
-  "serverCertificateError": "Cerficate Error",
+
+  "serverCertificateError": "Помилка сертифіката",
   "@serverCertificateError": {},
-  "serverCertificateInvalid": "Server HTTPS certificate is invalid",
+
+  "serverCertificateInvalid": "Сертифікат HTTPS сервера недійсний",
   "@serverCertificateInvalid": {},
-  "serverConnected": "Connected to Server",
+
+  "serverConnected": "Підключено до сервера",
   "@serverConnected": {},
-  "serverConnecting": "Connecting to server",
+
+  "serverConnecting": "Підключення до сервера",
   "@serverConnecting": {},
-  "serverCouldNotConnect": "Could not connect to server",
+
+  "serverCouldNotConnect": "Не вдалося підключитися до сервера",
   "@serverCouldNotConnect": {},
-  "serverEmpty": "Server cannot be empty",
+
+  "serverEmpty": "Сервер не може бути порожнім",
   "@serverEmpty": {},
-  "serverError": "Server Error",
+
+  "serverError": "Помилка сервера",
   "@serverError": {},
-  "serverDetails": "Server Details",
+
+  "serverDetails": "Деталі сервера",
   "@serverDetails": {},
-  "serverMissingData": "На сервері відсутні обов'язкові поля для відповіді",
+
+  "serverMissingData": "У відповіді сервера відсутні необхідні поля",
   "@serverMissingData": {},
-  "serverOld": "Old Server Version",
+
+  "serverOld": "Стара версія сервера",
   "@serverOld": {},
-  "serverSettings": "Server Settings",
+
+  "serverSettings": "Налаштування сервера",
   "@serverSettings": {},
-  "serverStart": "Server must start with http[s]",
+
+  "serverStart": "Сервер повинен починатися з http[s]",
   "@serverStart": {},
-  "settings": "Settings",
+
+  "settings": "Налаштування",
   "@settings": {},
-  "serverInstance": "Server Instance",
+
+  "serverInstance": "Екземпляр сервера",
   "@serverInstance": {},
-  "serverNotConnected": "Server not connected",
+
+  "serverNotConnected": "Сервер не підключено",
   "@serverNotConnected": {},
-  "serverNotSelected": "Server not selected",
+
+  "serverNotSelected": "Сервер не вибрано",
   "@serverNotSelected": {},
-  "shipments": "Shipments",
+
+  "shipments": "Відправлення",
   "@shipments": {},
-  "shipmentAdd": "Add Shipment",
+
+  "shipmentAdd": "Додати відправлення",
   "@shipmentAdd": {},
-  "shipped": "Shipped",
+
+  "shipped": "Відправлено",
   "@shipped": {},
+
   "sku": "SKU",
   "@sku": {},
-  "sounds": "Sounds",
+
+  "sounds": "Звуки",
   "@sounds": {},
-  "soundOnBarcodeAction": "Play audible tone on barcode action",
+
+  "soundOnBarcodeAction": "Відтворювати звуковий сигнал при дії зі штрих-кодом",
   "@soundOnBarcodeAction": {},
-  "soundOnServerError": "Play audible tone on server error",
+
+  "soundOnServerError": "Відтворювати звуковий сигнал при помилці сервера",
   "@soundOnServerError": {},
-  "status": "Status",
+
+  "status": "Статус",
   "@status": {},
-  "statusCode": "Status Code",
+
+  "statusCode": "Код статусу",
   "@statusCode": {},
-  "stock": "Stock",
-  "@stock": {
-    "description": "stock"
-  },
-  "stockDetails": "Current available stock quantity",
+
+  "stock": "Запас",
+  "@stock": {},
+
+  "stockDetails": "Поточна доступна кількість запасу",
   "@stockDetails": {},
-  "stockItem": "Stock Item",
-  "@stockItem": {
-    "description": "stock item title"
-  },
-  "stockItems": "Stock Items",
+
+  "stockItem": "Позиція запасу",
+  "@stockItem": {},
+
+  "stockItems": "Позиції запасу",
   "@stockItems": {},
-  "stockItemCreate": "New Stock Item",
+
+  "stockItemCreate": "Нова позиція запасу",
   "@stockItemCreate": {},
-  "stockItemCreateDetail": "Create new stock item in this location",
+
+  "stockItemCreateDetail": "Створити нову позицію запасу в цьому місцезнаходженні",
   "@stockItemCreateDetail": {},
-  "stockItemDelete": "Delete Stock Item",
+
+  "stockItemDelete": "Видалити позицію запасу",
   "@stockItemDelete": {},
-  "stockItemDeleteConfirm": "Ви впевнені, що хочете видалити цей товар?",
+
+  "stockItemDeleteConfirm": "Ви впевнені, що хочете видалити цю позицію запасу?",
   "@stockItemDeleteConfirm": {},
-  "stockItemDeleteFailure": "Could not delete stock item",
+
+  "stockItemDeleteFailure": "Не вдалося видалити позицію запасу",
   "@stockItemDeleteFailure": {},
-  "stockItemDeleteSuccess": "Stock item deleted",
+
+  "stockItemDeleteSuccess": "Позицію запасу видалено",
   "@stockItemDeleteSuccess": {},
-  "stockItemHistory": "Stock History",
+
+  "stockItemHistory": "Історія запасу",
   "@stockItemHistory": {},
-  "stockItemHistoryDetail": "Відображення історичної інформації відстеження запасів",
+
+  "stockItemHistoryDetail": "Показати історичну інформацію про відстеження запасу",
   "@stockItemHistoryDetail": {},
-  "stockItemTransferred": "Stock item transferred",
+
+  "stockItemTransferred": "Позицію запасу передано",
   "@stockItemTransferred": {},
-  "stockItemUpdated": "Stock item updated",
+
+  "stockItemUpdated": "Позицію запасу оновлено",
   "@stockItemUpdated": {},
-  "stockItemsNotAvailable": "No stock items available",
+
+  "stockItemsNotAvailable": "Немає доступних позицій запасу",
   "@stockItemsNotAvailable": {},
-  "stockItemNotes": "Stock Item Notes",
+
+  "stockItemNotes": "Примітки до позиції запасу",
   "@stockItemNotes": {},
-  "stockItemUpdateSuccess": "Stock item updated",
+
+  "stockItemUpdateSuccess": "Позицію запасу оновлено",
   "@stockItemUpdateSuccess": {},
-  "stockItemUpdateFailure": "Stock item update failed",
+
+  "stockItemUpdateFailure": "Помилка оновлення позиції запасу",
   "@stockItemUpdateFailure": {},
-  "stockLocation": "Stock Location",
-  "@stockLocation": {
-    "description": "stock location"
-  },
-  "stockLocations": "Stock Locations",
+
+  "stockLocation": "Місцезнаходження запасу",
+  "@stockLocation": {},
+
+  "stockLocations": "Місцезнаходження запасу",
   "@stockLocations": {},
-  "stockTopLevel": "Top level stock location",
+
+  "stockTopLevel": "Місцезнаходження запасу верхнього рівня",
   "@stockTopLevel": {},
-  "strictHttps": "Use Strict HTTPS",
+
+  "strictHttps": "Використовувати суворий HTTPS",
   "@strictHttps": {},
-  "strictHttpsDetails": "Застосувати обмежену перевірку HTTP-сертифікатів",
+
+  "strictHttpsDetails": "Забезпечити сувору перевірку сертифікатів HTTPs",
   "@strictHttpsDetails": {},
+
   "subcategory": "Підкатегорія",
   "@subcategory": {},
-  "subcategories": "Subcategories",
+
+  "subcategories": "Підкатегорії",
   "@subcategories": {},
-  "sublocation": "Sublocation",
+
+  "sublocation": "Підрозміщення",
   "@sublocation": {},
-  "sublocations": "Sublocations",
+
+  "sublocations": "Підрозміщення",
   "@sublocations": {},
-  "sublocationNone": "No Sublocations",
+
+  "sublocationNone": "Немає підрозміщень",
   "@sublocationNone": {},
-  "sublocationNoneDetail": "No sublocations available",
+
+  "sublocationNoneDetail": "Немає доступних підрозміщень",
   "@sublocationNoneDetail": {},
-  "submitFeedback": "Submit Feedback",
+
+  "submitFeedback": "Надіслати відгук",
   "@submitFeedback": {},
-  "suppliedParts": "Supplied Parts",
+
+  "suppliedParts": "Поставлені позиції",
   "@suppliedParts": {},
-  "supplier": "Supplier",
+
+  "supplier": "Постачальник",
   "@supplier": {},
-  "supplierPart": "Supplier Part",
+
+  "supplierPart": "Позиція постачальника",
   "@supplierPart": {},
-  "supplierPartEdit": "Edit Supplier Part",
+
+  "supplierPartEdit": "Редагувати позицію постачальника",
   "@supplierPartEdit": {},
-  "supplierPartNumber": "Supplier Part Number",
+
+  "supplierPartNumber": "Номер позиції постачальника",
   "@supplierPartNumber": {},
-  "supplierPartUpdated": "Supplier Part Updated",
+
+  "supplierPartUpdated": "Позицію постачальника оновлено",
   "@supplierPartUpdated": {},
-  "supplierParts": "Supplier Parts",
+
+  "supplierParts": "Позиції постачальника",
   "@supplierParts": {},
-  "suppliers": "Suppliers",
+
+  "suppliers": "Постачальники",
   "@suppliers": {},
-  "supplierReference": "Supplier Reference",
+
+  "supplierReference": "Посилання на постачальника",
   "@supplierReference": {},
-  "takePicture": "Take Picture",
+
+  "takePicture": "Зробити знімок",
   "@takePicture": {},
-  "targetDate": "Target Date",
+
+  "targetDate": "Цільова дата",
   "@targetDate": {},
-  "templatePart": "Parent Template Part",
+
+  "templatePart": "Батьківська позиція шаблону",
   "@templatePart": {},
-  "testName": "Test Name",
+
+  "testName": "Назва тесту",
   "@testName": {},
-  "testPassedOrFailed": "Test passed or failed",
+
+  "testPassedOrFailed": "Тест пройдено або не пройдено",
   "@testPassedOrFailed": {},
-  "testsRequired": "Required Tests",
+
+  "testsRequired": "Необхідні тести",
   "@testsRequired": {},
-  "testResults": "Test Results",
-  "@testResults": {
-    "description": ""
-  },
-  "testResultsDetail": "Display stock item test results",
+
+  "testResults": "Результати тестування",
+  "@testResults": {},
+
+  "testResultsDetail": "Показати результати тестування позиції запасу",
   "@testResultsDetail": {},
-  "testResultAdd": "Add Test Result",
+
+  "testResultAdd": "Додати результат тестування",
   "@testResultAdd": {},
-  "testResultNone": "No Test Results",
+
+  "testResultNone": "Немає результатів тестування",
   "@testResultNone": {},
-  "testResultNoneDetail": "No test results available",
+
+  "testResultNoneDetail": "Немає доступних результатів тестування",
   "@testResultNoneDetail": {},
-  "testResultUploadFail": "Error uploading test result",
+
+  "testResultUploadFail": "Помилка завантаження результату тестування",
   "@testResultUploadFail": {},
-  "testResultUploadPass": "Test result uploaded",
+
+  "testResultUploadPass": "Результат тестування завантажено",
   "@testResultUploadPass": {},
-  "timeout": "Timeout",
-  "@timeout": {
-    "description": ""
-  },
-  "tokenError": "Token Error",
+
+  "timeout": "Тайм-аут",
+  "@timeout": {},
+
+  "tokenError": "Помилка токена",
   "@tokenError": {},
-  "tokenMissing": "Missing Token",
+
+  "tokenMissing": "Відсутній токен",
   "@tokenMissing": {},
-  "tokenMissingFromResponse": "Access token missing from response",
+
+  "tokenMissingFromResponse": "У відповіді відсутній токен доступу",
   "@tokenMissingFromResponse": {},
-  "totalPrice": "Total Price",
+
+  "totalPrice": "Загальна ціна",
   "@totalPrice": {},
-  "transfer": "Transfer",
-  "@transfer": {
-    "description": "transfer"
-  },
-  "transferStock": "Transfer Stock",
-  "@transferStock": {
-    "description": "transfer stock"
-  },
-  "transferStockDetail": "Transfer item to a different location",
+
+  "transfer": "Передача",
+  "@transfer": {},
+
+  "transferStock": "Передати запас",
+  "@transferStock": {},
+
+  "transferStockDetail": "Передати позицію в інше місцезнаходження",
   "@transferStockDetail": {},
-  "transferStockLocation": "Transfer Stock Location",
+
+  "transferStockLocation": "Передати місцезнаходження запасу",
   "@transferStockLocation": {},
-  "transferStockLocationDetail": "Transfer this stock location into another",
+
+  "transferStockLocationDetail": "Передати це місцезнаходження запасу в інше",
   "@transferStockLocationDetail": {},
-  "translate": "Translate",
+
+  "translate": "Перекласти",
   "@translate": {},
-  "translateHelp": "Help translate the InvenTree app",
+
+  "translateHelp": "Допоможіть перекласти додаток InvenTree",
   "@translateHelp": {},
-  "unavailable": "Unavailable",
+
+  "unavailable": "Недоступний",
   "@unavailable": {},
-  "unavailableDetail": "Item is not available",
+
+  "unavailableDetail": "Позиція недоступна",
   "@unavailableDetail": {},
-  "unitPrice": "Unit Price",
+
+  "unitPrice": "Ціна за одиницю",
   "@unitPrice": {},
-  "units": "Units",
+
+  "units": "Одиниці",
   "@units": {},
-  "unknownResponse": "Unknown Response",
+
+  "unknownResponse": "Невідома відповідь",
   "@unknownResponse": {},
-  "upload": "Upload",
+
+  "upload": "Завантажити",
   "@upload": {},
-  "uploadFailed": "File upload failed",
+
+  "uploadFailed": "Помилка завантаження файлу",
   "@uploadFailed": {},
-  "uploadSuccess": "File uploaded",
+
+  "uploadSuccess": "Файл завантажено",
   "@uploadSuccess": {},
-  "usedIn": "Used In",
+
+  "usedIn": "Використовується в",
   "@usedIn": {},
-  "usedInDetails": "Assemblies which require this part",
+
+  "usedInDetails": "Вузли, які потребують цю позицію",
   "@usedInDetails": {},
-  "username": "Username",
+
+  "username": "Ім'я користувача",
   "@username": {},
-  "usernameEmpty": "Username cannot be empty",
+
+  "usernameEmpty": "Ім'я користувача не може бути порожнім",
   "@usernameEmpty": {},
-  "value": "Value",
-  "@value": {
-    "description": "value"
-  },
-  "valueCannotBeEmpty": "Value cannot be empty",
+
+  "value": "Значення",
+  "@value": {},
+
+  "valueCannotBeEmpty": "Значення не може бути порожнім",
   "@valueCannotBeEmpty": {},
-  "valueRequired": "Value is required",
+
+  "valueRequired": "Значення обов'язкове",
   "@valueRequired": {},
-  "variants": "Variants",
+
+  "variants": "Варіанти",
   "@variants": {},
-  "version": "Version",
+
+  "version": "Версія",
   "@version": {},
-  "viewSupplierPart": "View Supplier Part",
+
+  "viewSupplierPart": "Переглянути позицію постачальника",
   "@viewSupplierPart": {},
-  "website": "Website",
+
+  "website": "Веб-сайт",
   "@website": {}
+
 }
